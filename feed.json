@@ -9,5 +9,21 @@
         "name": "Nyfor"
     },
     "items": [
+        {
+            "id": "https://rouganstriker.github.io/bitsandbytes/initial-commit.html",
+            "url": "https://rouganstriker.github.io/bitsandbytes/initial-commit.html",
+            "title": "Initial Commit",
+            "summary": "The potential start of a weekly blog (let's see how long this lasts). I spent a few minutes on the internet looking for a good blogging platform and discovered Publii. I had a few criteria in mind while looking evaluating potential tools. Having brought a&hellip;",
+            "content_html": "<p>The potential start of a weekly blog (let's see how long this lasts).</p>\n<p>I spent a few minutes on the internet looking for a good blogging platform and discovered <a href=\"https://getpublii.com/\">Publii</a>. I had a few criteria in mind while looking evaluating potential tools. Having brought a web hosting service and setup my own website in the past, I know there is a very good chance I won't actually commit to maintaining this blog and writing up a weekly blog post so I was looking for a platform that required little to no cost and investment to use. The default look and feel had to be modern enough for my liking as well. Although I do web development for a living and could restyling things to my liking, that would be work and I would prefer not to do work for a hobby project.</p>\n<p>Publii was the first tool that stood out to me that met those criteria. It offered a desktop app for managing the website content and supports a Github Pages deployment (free version control!). It's slick and simple which is exactly what I want.</p>\n<p>But let's see how that opinion holds up in the far future.</p>",
+            "image": "https://rouganstriker.github.io/bitsandbytes/media/posts/1/PXL_20230917_221716877.MP-2.jpg",
+            "author": {
+                "name": "Nyfor"
+            },
+            "tags": [
+                   "tech"
+            ],
+            "date_published": "2024-02-10T17:00:37-05:00",
+            "date_modified": "2024-02-10T17:32:38-05:00"
+        }
     ]
 }
