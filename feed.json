@@ -1,0 +1,13 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "bitsandbytes",
+    "description": "",
+    "home_page_url": "https://rouganstriker.github.io/bitsandbytes",
+    "feed_url": "https://rouganstriker.github.io/bitsandbytes/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "Nyfor"
+    },
+    "items": [
+    ]
+}
