@@ -10,6 +10,21 @@
     },
     "items": [
         {
+            "id": "https://rouganstriker.github.io/bitsandbytes/sql-filtering-dilemma.html",
+            "url": "https://rouganstriker.github.io/bitsandbytes/sql-filtering-dilemma.html",
+            "title": "SQL Filtering Dilemma",
+            "summary": "Suppose you are querying against a very large table in your database with some amount of filtering involved. What is the most optimal way to construct and execute this query? tldr; it depends so analyze and measure first. Query filter without joins &lt; Query with&hellip;",
+            "content_html": "<p>Suppose you are querying against a very large table in your database with some amount of filtering involved. What is the most optimal way to construct and execute this query?</p>\n<p><strong><em>tldr</em><em>; it depends so analyze and measure first.</em></strong></p>\n<p>Query filter without joins &lt; Query with IN filter against static values &lt; Query filter with joins </p>\n<p>The best query involves no joins at all if the filtering can be done on the table alone. Join operations are notoriously expensive and this is very noticeable when joining against large tables. But if joins are necessary or if the filter is very complex, I've seen situations where the query is broken in half with one query pre-computing the result of the subquery into a list of IDs and then converting the primary query to perform an IN filter against that list of IDs. In some cases this does improve the overall performance of the operation by removing an expensive join operation from the query. However it does come at a cost, when you analyze a query that uses an IN filter with a very large list of values, it has a high planning cost likely due to having to process such a large query. So there will be a break-even point after which the approach of an IN filter with static values will be less performant than a subquery with joins. That break-even point depends on the size and complexity of the filter and join operations so it is important to test and measure before deciding which approach to go with.</p>",
+            "image": "https://rouganstriker.github.io/bitsandbytes/media/posts/3/IMG_7203.jpg",
+            "author": {
+                "name": "Nyfor"
+            },
+            "tags": [
+            ],
+            "date_published": "2024-02-17T17:49:26-05:00",
+            "date_modified": "2024-02-17T17:49:26-05:00"
+        },
+        {
             "id": "https://rouganstriker.github.io/bitsandbytes/initial-commit.html",
             "url": "https://rouganstriker.github.io/bitsandbytes/initial-commit.html",
             "title": "Initial Commit",
